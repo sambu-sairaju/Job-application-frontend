@@ -14,7 +14,7 @@
           Job Application
           <span class="title_small">(Web)</span>
         </h1>
-        <form action="http://localhost:5000/apply" method="POST">
+        <form action="https://job-application-backend-opsp.onrender.com/apply" method="POST" enctype="multipart/form-data">
           <div class="form_container">
             <div class="form_control">
               <label for="first_name"> First Name </label>
@@ -80,7 +80,7 @@
             </div>
             <div class="form_control">
               <label for="upload"> Upload Your CV </label>
-              <input type="file" id="upload" name="upload" />
+              <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required />
             </div>
           </div>
           <div class="button_container">
